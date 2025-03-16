@@ -1,0 +1,267 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: linear-gradient(to right, #250C60, #4B157E);  */
+    background: linear-gradient(to bottom, #9641F0, #FF64AD);
+    height: 1051px;
+    color: white;
+    font-family: "League Spartan", serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* div {
+    border: 2px solid;
+} */
+
+#onePerson {
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    /* border: 2px solid; */
+    cursor: pointer;
+    background-color: #3A1A6E;
+
+}
+
+
+#groupChat {
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    /* border: 2px solid; */
+    background-color: #3A1A6E;
+
+    cursor: pointer;
+
+}
+
+.in {
+    width: 50%;
+    height: 100%;
+    border: 2px solid;
+}
+
+.first {
+    /* width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+
+    gap: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second {
+    width: 100%;
+    height: 40%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#header {
+    width: 100%;
+    height: 20%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid;
+}
+
+
+#work {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    width: 27%;
+    height: 31%;
+    border-radius: 28px;
+    /* background-color: transparent; */
+    /* border: 2px solid white; */
+    color: white;
+    background-color: #3A1A6E;
+    /* background-color: #6B28B1; */
+    /* background-color: #00E6E6; */
+    font-weight: bold;    
+    font-family: "League Spartan", serif;
+    font-size: 1.32rem;
+}
+
+
+
+
+.third {
+    width: 40%;
+    height: 50%;
+    display: none;
+}
+
+
+.fourth {
+    width: 40%;
+    height: 50%;
+    display: none;
+}
+
+.inside {
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+}
+
+#roomCreate {
+    /* width: 80%; */
+    width: 55%;
+    height: 12%;
+    padding-left: 2%;
+    font-size: 1.3rem;
+    border-radius: 13px;
+}
+
+#create {
+    width: 55%;
+    height: 11%;
+    border-radius: 14px;
+}
+
+.workingRoom {
+    width: 100%;
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6%;
+}
+
+
+.inside h1 {
+    text-align: center;
+    border-bottom: 2px solid;
+}
+
+
+#join{
+    width: 55%;
+    height: 11%;
+    border-radius: 14px;   
+}
+
+#roomJoin{
+    /* width: 80%;
+    height: 15%;
+    border-radius: 13px; */
+    width: 55%;
+    height: 12%;
+    padding-left: 2%;
+    font-size: 1.3rem;
+    border-radius: 13px;
+}
+
+
+.five{
+    width: 100%;
+    height: 1040px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatApp{
+    width: 50%;
+    height: 100%;
+    border: 2px solid;
+}
+
+#chatScreen{
+    width: 100%;
+    height: 91%;
+    overflow-y: scroll;
+    border-bottom: 2px solid;
+    padding: 1%;
+    font-size: 1.4rem;
+}
+
+
+#chatButton{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+#message{
+    width: 80%;
+    height: 65%;
+    font-size: 1.5rem;
+}
+
+#send{
+    width: 13%;
+    height: 65%;
+    border-radius: 13px;
+}
+
+
+#chatScreen > div:nth-child(even){
+    /* background: #29b2d5; */
+    /* background: #F08080; */
+    /* background: #04027D; */
+    /* color: #018A87; */
+    /* background-color: #EDEDED; */
+    background-color: #1ABC9C;
+    color: #04027D;
+    /* background-color: #FA796B; */
+    /* background:  #eccaca; */
+}
+
+
+#chatScreen > div:nth-child(odd){
+  
+    background-color: #EDEDED;
+    color: #04027D;
+
+}
+
+#chatScreen div{
+    border-radius: 20px;
+    
+}
+
+
+button{
+    cursor: pointer;
+}
+

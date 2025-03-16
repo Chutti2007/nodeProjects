@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styleFirst.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <!-- <h2>Hi chat application</h2> -->
+
+        <div class="first">
+            <div id="onePerson">
+                <h2>Person to person chat</h2>
+            </div>
+
+            <div id="groupChat">
+                <h2>Person to group chat</h2>
+            </div>
+
+        </div>
+
+        <div class="second">
+            <div class="in">
+                <div id="header">
+                    <h1>Chose create or join</h1>
+                </div>
+
+                <div id="work">
+                    <button id="createR">create room</button>
+                    <button id="joinR">join room</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="third">
+            <div class="inside">
+                <h1>Create Room</h1>
+
+                <div class="workingRoom">
+                    <input type="text" id="roomCreate" placeholder="Create a room">
+                    <button id="create">create room</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fourth">
+            <div class="inside">
+                <h1>Join Room</h1>
+
+                <div class="workingRoom">
+                    <input type="text" id="roomJoin" placeholder="Join a room">
+                    <button id="join">join room</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="five">
+            <div class="chatApp">
+                <div id="chatScreen"></div>
+                <div id="chatButton">
+                    <input type="text" id="message">
+                    <button id="send">send</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/script2.js"></script>
+
+</body>
+
+</html>
