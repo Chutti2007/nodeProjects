@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/gameStyle.css">
+</head>
+
+<body>
+
+    <!-- <h1>Welcome to the Rock Paper Game</h1> -->
+    <div id="wrapper">
+
+
+        <div id="giveRoom">
+
+
+            <div class="divFirst">
+                <div>
+                    <h1>Create Room</h1>
+                </div>
+
+                <div>
+                    <input type="text" id="createroom" placeholder="create room">
+                    <button id="create">create room</button>
+                </div>
+
+            </div>
+
+            <!-- <h1>Give room name</h1> -->
+            <div class="divFirst">
+                <div>
+                    <h1>Join Room</h1>
+                </div>
+
+                <div>
+                    <input type="text" id="roomName" placeholder="join room">
+                    <button id="joinRoom">join room</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- <input type="text" id="roomId"/>
+        <button id="joinRoom">join room</button> -->
+
+
+
+        <div id="allChoices">
+
+            <div id="header">
+                <h1>ROCK<br> PAPER <br>SCISSORS</h1>
+                <div>Points
+                    <h1 id="points"></h1>
+                </div>
+            </div>
+
+            <div id="choices">
+
+                <div id="player1">
+                   <h1> Player1</h1>
+                    <p id="p1"></p>
+                    <div>
+                        <h1 id="p1Choice"></h1>
+
+                        <img id="play1">
+                    </div>
+                </div>
+
+                <div id="choiceAvailable">
+
+                    <hr id="hr1">
+                    <div class="round" id="r1">
+                        <img src="/images/icon-rock.svg" id="rock">
+                    </div>
+
+                    <hr id="hr2">
+
+                    <div class="round" id="r2">
+                        <img src="/images/icon-paper.svg" id="paper">
+                    </div>
+
+
+                    <hr id="hr3">
+                    <div class="round" id="r3">
+                        <img src="/images/icon-scissor.svg" id="scissor">
+                    </div>
+
+                    <!-- <img src="/images/icon-lizard.svg" id="lizard">
+                    <img src="/images/icon-spock.svg" id="spock"> -->
+                </div>
+
+                <div id="player2">
+                    <h1>Player2</h1>
+                    <p id="p2"></p>
+                    <div>
+                        <h1 id="p2Choice"></h1>
+                        <img id="play2">
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div id="win">
+            <!-- <div id="winner"></div> -->
+        </div>
+
+
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/gamePage2.js"></script>
+</body>
+
+</html>

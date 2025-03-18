@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    border: 2px solid;
+}
+
+.wrapper{
+    width: 40%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#giveRoom{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#roomName{
+    width: 50%;
+    height: 20%;
+}
+
+#createRoom{
+    width: 30%;
+    height: 20%;
+}

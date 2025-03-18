@@ -1,0 +1,281 @@
+* {
+    padding-inline-start: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 100%;
+    height: 1050px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d2e4e;
+    color: white;
+}
+
+/* div {
+    border: 2px solid;
+} */
+
+
+#giveRoom {
+    width: 35%;
+    height: 52%;
+    position: absolute;
+    padding-top: 3%;
+
+}
+
+.divFirst {
+    width: 100%;
+    height: 25%;
+    margin-top: 5%;
+}
+
+#giveRoom div div {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#giveRoom div input {
+    width: 70%;
+    height: 76%;
+    margin-bottom: 1%;
+}
+
+#giveRoom div button {
+    width: 16%;
+    height: 60%;
+    margin-left: 2%;
+}
+
+/* #roomName {
+    width: 70%;
+    height: 50%;
+} */
+
+#joinRoom {
+    width: 21%;
+    height: 6%;
+}
+
+
+#allChoices {
+    width: 100%;
+    height: 100%;
+    padding: 6%;
+    display: none;
+}
+
+#header {
+    width: 100%;
+    height: 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+}
+
+#header h1 {
+    width: 26%;
+}
+
+#header div {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+#choices {
+    height: 77%;
+    display: flex;
+    border: 2px solid ;
+    border-top: 0px solid;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+#player1 {
+    width: 22%;
+    height: 100%;
+    border-right: 2px solid  ;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-right: 1%;
+}
+
+#player2 {
+    width: 22%;
+    height: 100%;
+    border-left: 2px solid  ;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-right: 1%;
+
+}
+
+#choiceAvailable {
+    width: 56%;
+    height: 100%;
+    position: relative;
+
+}
+
+.round {
+    width: 20%;
+    height: 28%;
+    background-color: bisque;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid rgb(255, 102, 0);
+    z-index: 1;
+}
+
+#r1 {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+img{
+    width: 50%;
+}
+
+#hr1{
+
+    right: 28%;
+    width: 19%;
+    position: absolute;
+    bottom: 57%;
+    /* background: black; */
+    /* border: 7px solid #16243f; */
+    transform: rotate(56deg)
+}
+
+
+#hr2{
+
+    left: 28%;
+    width: 19%;
+    position: absolute;
+    top: 41%;
+    /* background: black; */
+    /* border: 7px solid #16243f; */
+    transform: rotate(-56deg);
+  
+}
+
+#hr3{
+
+    right: 40%;
+    width: 19%;
+    position: absolute;
+    bottom: 32%;
+    transform: rotate(-1deg);
+  
+}
+
+hr{
+    border: 7px solid #16243f;
+    background-color: #16243f;
+}
+
+#r2 {
+    position: absolute;
+    bottom: 22%;
+    left: 22%;
+
+}
+
+#r3 {
+    position: absolute;
+    bottom: 22%;
+    right: 21%;
+}
+
+
+#choiceAvailable:first-child {
+    position: absolute;
+    top: 20%;
+}
+
+#p1Choice {
+    height: 70%;
+}
+
+#p2Choice {
+    height: 70%;
+}
+
+#win {
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    color: black;
+    z-index: 5;
+
+}
+
+/* 
+#winner{
+    width: 100%;
+    height: 100%;
+    
+} */
+
+/* #win{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+#player1 h1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#player1 p{
+    font-size: 0.7rem;
+    margin-bottom: 1%;
+}
+
+#player2 h1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#player2 p{
+    font-size: 0.7rem;
+    margin-bottom: 1%;
+
+}
+
+#play1{
+    margin-top: 12%;
+}
+
+#play2{
+    margin-top: 12%;
+}
+
+button{
+    border-radius:15px;
+}
+
+input{
+    border-radius: 13px;
+    padding-left: 2%;
+}
