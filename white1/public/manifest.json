@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "WhiteBoard",
+    "version": "1.0.0",
+    "description": "Real-time collaborative whiteboard using Canvas,and Socket.io.",
+    "icons": {
+        "48": "white.png",
+        "96": "white.png"
+    },
+    "action": {
+        "default_popup": "index.html"
+    }
+}
