@@ -58,7 +58,7 @@ async function getPlanetDetails(name, num) {
     try {
         var response;
 
-        response = await fetch(`http://localhost:3200/planet?name=` + name) //.then((res) => res.json());
+        response = await fetch(`planet?name=` + name) //.then((res) => res.json());
 
 
         if (!response.ok) {

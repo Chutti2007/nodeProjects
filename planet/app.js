@@ -220,13 +220,10 @@ app.use(express.static(pubDir));
 
 
 app.get("/", (req, res) => {
-  // let pNameFirst = "mercury";
-  // let details = findPlanetDetails(pNameFirst);
+
   console.log("Query : ", req.query);
   let pName = "mercury";
-  // if (req.query.name) {
-  //   pName = req.query.name;
-  // }
+ 
   console.log("Now Planet NAme : " + pName);
   res.render("planetPage");
 })
@@ -240,17 +237,10 @@ app.get("/planet", (req, res) => {
   let planetName = req.query.name;
   console.log(planetName);
 
-  // let view;
-
-  // if(req.query.view){
-  //   view = req.query.view;
-  // }
-
   let planetInfo = findPlanetDetails(planetName);
 
   if (planetInfo != null) {
     console.log(planetInfo);
-    // res.status(200).send({planetInfo});
     console.log("Planet Name : ", planetName);
     res.status(200).send(planetInfo);
   }
