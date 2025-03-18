@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/loginStyle.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>Login</h1>
+        <div class="signingUp">
+            <div class="sign">
+                <h3>Username</h3>
+                <input type="text" placeholder="Enter your name" id="name">
+            </div>
+
+            <div class="pass">
+                <h3>Password</h3>
+                <input type="password" placeholder="Enter the password" id="password">
+            </div>
+
+            <div class="bParent">
+                <button id="check">login</button>
+            </div>
+
+            <a href="/register">Go to register page</a>
+        </div>
+    </div>
+
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/loginS.js"></script>
+</body>
+
+</html>

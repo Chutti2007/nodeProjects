@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    background: linear-gradient(#0A5EC3, #D24190);
+}
+
+/* div {
+    border: 2px solid;
+} */
+
+.wrap {
+    width: 28%;
+    height: 550px;
+}
+
+.signingUp {
+    width: 100%;
+    height: 80%;
+}
+
+.sign {
+    width: 100%;
+    height: 30%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pass {
+    width: 100%;
+    height: 30%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bParent{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#check {
+    width: 80%;
+    height: 50%;
+    border-radius: 23px;
+    /* justify-self: left; */
+}
+
+.wrap h1 {
+    text-align: center;
+
+}
+
+h3{
+   margin-right: 68%;
+}
+
+input {
+    width: 84%;
+    height: 38%;
+    margin-top: 3%;
+    background-color: transparent;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+a{
+    color: white;
+    margin-left: 40%;
+
+}
