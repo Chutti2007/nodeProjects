@@ -126,7 +126,7 @@ export default function ButtonDiv(props) {
           value={widthOfBrush}
           onChange={handleWidthChange}
           onClick={handleClick}
-          style={{ position: "absolute", bottom: "-1.5%", width: "6%" }}
+          style={{ position: "absolute", bottom: "-1.5%"}}
         ></input>
       )}
 
@@ -156,7 +156,7 @@ export default function ButtonDiv(props) {
           value={widthOfEraser}
           onChange={handleWidthForEraser}
           onClick={handleClickInEraser}
-          style={{ position: "absolute", bottom: "0.5%", width: "6%", left: "24%", marginTop: "1%" }}
+          style={{ position: "absolute", bottom: "0.5%", width: "6%", left: "35%", marginTop: "1%" }}
         ></input>
       )}
 
@@ -178,7 +178,7 @@ export default function ButtonDiv(props) {
       ><FaShapes /></button>
 
       {showShape &&
-        <div style={{ width: "25%", height: "62%", overflowX: "scroll", scrollbarWidth: "none", position: "absolute", background: "#111827", top: "92%", zIndex: 1, left: "34%", display: "flex", whiteSpace: "nowrap", paddingLeft: "1%", color: "white", borderRadius: "10px", gap: "2%" }}>
+        <div style={{ width: "47%", height: "73%", overflowX: "scroll", scrollbarWidth: "none", position: "absolute", background: "#111827", top: "92%", zIndex: 1, left: "34%", display: "flex", whiteSpace: "nowrap", paddingLeft: "1%", color: "white", borderRadius: "10px", gap: "2%" }}>
 
           <div style={{ width: "15%", height: "95%", flexShrink: 0 }} onClick={() => {
             tool.current = "rectangle";
